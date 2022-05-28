@@ -1,0 +1,106 @@
+.w-9 {
+    width: 75%;
+}
+
+.w-8 {
+    width: 66%;
+}
+
+.w-6 {
+    width: 50%;
+}
+
+.w-3 {
+    width: 25%;
+}
+
+.w-4 {
+    width: 33.3%;
+}
+
+.w-1 {
+    width: 8.3%;
+}
+
+
+.container {
+    padding: 5px 0px 5px 0px;
+}
+
+.container-title {
+    text-align: left;
+    font-size: 25px;
+}
+
+.container-content {
+    text-align: left;
+}
+
+.container-tree {
+    list-style: none;
+}
+
+.container-item {}
+
+
+.container-fluid {
+    padding: 5px 100px 0px 100px;
+}
+
+table,
+th,
+td {
+    border-collapse: collapse;
+    border: 1px solid rgb(175, 175, 175);
+}
+
+table {
+    width: 100%;
+    border: 1px solid red;
+}
+
+.Table-title {
+    color: black;
+    font-weight: 100;
+    background-color: rgb(214, 214, 214);
+}
+
+#id-table {
+    width: 10%;
+    padding: 5px 0px 5px 0px;
+    font-weight: 600;
+}
+
+#name-table {
+    width: 60%;
+    font-weight: 600;
+}
+
+#difficulty-table {
+    width: 15%;
+    font-weight: 600;
+}
+
+#acceptance-table {
+    width: 15%;
+    font-weight: 600;
+}
+
+.Table-item {
+    padding: 5px 0px 5px 0px;
+}
+
+
+@media screen and (max-width:414px) {
+    #main {
+        width: 100%;
+    }
+
+    #container-fluid {
+        padding: 0px 0px 0px 0px;
+    }
+
+    #notification {
+        display: none;
+    }
+}

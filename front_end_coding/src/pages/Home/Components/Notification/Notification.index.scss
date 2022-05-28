@@ -1,0 +1,18 @@
+.Notification-form {
+    width: 100%;
+    border: 1px solid rgb(235, 175, 64);
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.Notification-title {
+    background-color: rgb(235, 175, 64);
+    color: white;
+    padding: 7px 15px 7px 15px;
+    text-align: left;
+}
+
+.Notification-content {
+    padding: 5px 15px 5px 15px;
+    text-align: left;
+}
