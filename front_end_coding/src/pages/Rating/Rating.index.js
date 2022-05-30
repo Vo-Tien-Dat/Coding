@@ -1,36 +1,40 @@
 
-import './Contest.index.scss';
 
-function ContestIndex() {
+import './Rating.index.scss';
+function RatingIndex() {
     return (
         <div className='container-fluid' id='container-fluid'>
-            <div className='containe w-12' id='contaier-main'>
+            <div className='container w-12' id='main'>
                 <table className='Table'>
                     <tr className='Table-title'>
-                        <th id='contest-table'>Contest</th>
-                        <th id='user-table'>Users</th>
-                        <th id='button-table'></th>
+                        <th id='id-table'>id</th>
+                        <th id='name-table'>name</th>
+                        <th id='difficulty-table'>difficulty</th>
+                        <th id='acceptance-table'>acceptance</th>
                     </tr>
                     <tr>
                         <td className='Table-item'>166B</td>
                         <td>Old Subarrays</td>
                         <td>3700</td>
+                        <td>1080</td>
                     </tr>
                     <tr>
                         <td className='Table-item'>166B</td>
                         <td>Old Subarrays</td>
                         <td>3700</td>
+                        <td>1080</td>
                     </tr>
                     <tr>
                         <td className='Table-item'>166B</td>
                         <td>Old Subarrays</td>
                         <td>3700</td>
-
+                        <td>1080</td>
                     </tr>
                     <tr>
                         <td className='Table-item'>166B</td>
                         <td>Old Subarrays</td>
                         <td>3700</td>
+                        <td>1080</td>
                     </tr>
                 </table>
             </div>
@@ -38,4 +42,4 @@ function ContestIndex() {
     )
 }
 
-export default ContestIndex;
+export default RatingIndex;

@@ -3,6 +3,7 @@
 import './Navbar.Index.scss';
 import { useState } from 'react';
 import classnames from 'classnames';
+import { Link } from 'react-router-dom';
 function NavbarIndex() {
     const [activeNavbar, setActiveNavbar] = useState(true);
 
@@ -23,10 +24,38 @@ function NavbarIndex() {
                 </div>
                 <div className='navbar-collapse'>
                     <ul className='navbar-nav'>
-                        <div className='nav-item'>Explore</div>
-                        <div className='nav-item'>Problems</div>
-                        <div className='nav-item'>Contest</div>
-                        <div className='nav-item'>Rating</div>
+                        <li className='nav-item'>
+                            <Link
+                                to={{
+                                    pathname: '/explore'
+                                }}
+                                className='nav-link'
+                            >Explore</Link>
+                        </li>
+                        <li className='nav-item'>
+                            <Link
+                                to={{
+                                    pathname: '/problems'
+                                }}
+                                className='nav-link'
+                            >Problem</Link>
+                        </li>
+                        <li className='nav-item'>
+                            <Link
+                                to={{
+                                    pathname: '/contest'
+                                }}
+                                className='nav-link'
+                            >Contest</Link>
+                        </li>
+                        <li className='nav-item'>
+                            <Link
+                                to={{
+                                    pathname: '/rating'
+                                }}
+                                className='nav-link'
+                            >Rating</Link>
+                        </li>
                     </ul>
                 </div>
 
@@ -36,10 +65,38 @@ function NavbarIndex() {
                     'navbar-nav-table',
                     { 'active': activeNavbar }
                 )}>
-                    <li className='nav-item-table'>Explore</li>
-                    <li className='nav-item-table'>Problem</li>
-                    <li className='nav-item-table'>Rating</li>
-                    <li className='nav-item-table'>Contest</li>
+                    <li className='nav-item-table'>
+                        <Link
+                            to={{
+                                pathname: '/explore'
+                            }}
+                            className='nav-link'
+                        >Explore</Link>
+                    </li>
+                    <li className='nav-item-table'>
+                        <Link
+                            to={{
+                                pathname: '/problems'
+                            }}
+                            className='nav-link'
+                        >Problem</Link>
+                    </li>
+                    <li className='nav-item-table'>
+                        <Link
+                            to={{
+                                pathname: '/rating'
+                            }}
+                            className='nav-link'
+                        >Rating</Link>
+                    </li>
+                    <li className='nav-item-table'>
+                        <Link
+                            to={{
+                                pathname: '/contest'
+                            }}
+                            className='nav-link'
+                        >Contest</Link>
+                    </li>
                 </ul>
             </div>
         </>

@@ -2,10 +2,6 @@
     width: 100%;
 }
 
-.w-9 {
-    width: 75%;
-}
-
 .w-8 {
     width: 66%;
 }
@@ -50,35 +46,18 @@
     display: none;
 }
 
-#id-table {
-    width: 60%;
-}
-
-#user-table {
-    width: 20%;
-}
-
-#button-table {
-    width: 20%;
-}
-
 @media screen and (max-width: 414px) {
     #container-fluid {
-        padding: 10px 5px 0px 5px;
-    }
-
-    #container-main {
-        padding: 10px 10px 0px 10px;
-        border: 1px solid red;
+        padding: 0px 10px 0px 10px;
     }
 
     #main {
         width: 100%;
     }
 
-    #extra {
-        display: none;
-    }
+}
 
-
+.nav-link {
+    text-decoration: none;
+    color: white;
 }
