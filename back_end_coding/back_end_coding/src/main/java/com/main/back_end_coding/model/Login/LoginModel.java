@@ -14,8 +14,6 @@ public class LoginModel {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(name = "id")
-    private Long id;
     @Column(name = "user_name")
     private String username;
     @Column(name = "password")
